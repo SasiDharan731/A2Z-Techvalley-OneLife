@@ -1,0 +1,568 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+
+/* my code starts here */
+.Searchbox {
+  height: 5vh;
+  width: 30vw;
+  margin-left: 10vw;
+  background-color: white;
+  border-radius: 0.5vw;
+  border: solid;
+  display: flex;
+  align-items: center;
+}
+
+.Topbar {
+  height: 10vh;
+  width: 100vw;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  /* background-color: green; */
+}
+.Searchboxtext {
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  font-weight: 200;
+  opacity: 50%;
+}
+
+.homebox {
+  height: 5vh;
+  width: 2.5vw;
+  background-color: white;
+  margin-left: 30vw;
+  border-radius: 0.5vw;
+}
+.homebox3 {
+  height: 5vh;
+  width: 2.5vw;
+  background-color: white;
+  /* margin-left: 30vw; */
+  border-radius: 0.5vw;
+  margin-right: 1vw;
+}
+.homebox4 {
+  height: 5vh;
+  width: 2.5vw;
+  /* background-color: white; */
+  margin-left: 0.8vw;
+  border-radius: 0.5vw;
+  margin-right: 1vw;
+}
+.homebox2 {
+  height: 5vh;
+  width: 2.5vw;
+  background-color: white;
+  margin-left: 1vw;
+  border-radius: 0.5vw;
+}
+.hometxt {
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  margin-left: -1vw;
+  margin-right: 1vw;
+  /* margin-top:-.01vw; */
+}
+
+.Topbar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+.mainbox {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+}
+
+.mainbox1 {
+  height: 100vh;
+  background-color: white;
+  width: 65vw;
+  margin-left: 5vw;
+  border-radius: 1.5vw;
+  margin-right: 2vw;
+}
+
+.mainsubbox1 {
+  /* background-color: green; */
+  width: 65vw;
+  height: 5vh;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2vh;
+}
+
+.mainsubbox1txt {
+  color: black;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 2vw;
+  margin-left: 2vw;
+}
+
+.redbox {
+  height: 5vh;
+  background-color: red;
+  border-radius: 0.4vw;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40vw;
+  font-size: 1.2vw;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.mainsubbox2 {
+  /* background-color: green; */
+  height: 16vh;
+  width: 65vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.box1txt {
+  color: black;
+  font-size: 1.3vw;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-top: -0.3vw;
+}
+
+.box1txt2 {
+  color: black;
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-top: -0.6vw;
+  margin-left: 1vw;
+}
+
+.uline {
+  color: black;
+  cursor: pointer;
+}
+
+.box1txt3 {
+  color: blue;
+  opacity: 80%;
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-top: -0.6vw;
+  margin-left: 1vw;
+}
+
+.box1 {
+  height: 16vh;
+  width: 11vw;
+  margin-left: -20px;
+  /* background-color: pink; */
+}
+
+.box2 {
+  height: 14vh;
+  width: 11vw;
+  margin-left: 1vw;
+  background-color: #e3fea2;
+  border-radius: 1vw;
+}
+
+.box {
+  height: 14vh;
+  width: 11vw;
+  margin-left: 1vw;
+  border-radius: 1vw;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: solid #0000001c thin;
+}
+
+.box2txt {
+  color: black;
+  font-size: 1.3vw;
+  font-family: "Alegreya Sans", sans-serif;
+  /* background-color: brown; */
+  margin-left: 1vw;
+}
+
+.box2txt2 {
+  color: black;
+  font-size: 1.3vw;
+  font-family: "Alegreya Sans", sans-serif;
+  /* background-color: brown; */
+  margin-left: 1vw;
+  margin-top: -1.5vw;
+}
+
+.box3txt1 {
+  color: black;
+  font-size: 1.3vw;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.box3txt2 {
+  color: black;
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-top: -0.6vw;
+}
+
+.box3txt3 {
+  color: #39a97c;
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-top: -0.6vw;
+}
+
+.box4txt3 {
+  color: #d95857;
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-top: -0.6vw;
+}
+
+.mainsubbox3 {
+  /* background-color: green; */
+  height: 24vh;
+  width: 65vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  /* margin-bottom: 2vw; */
+}
+
+.blackbox {
+  height: 28vh;
+  width: 54vw;
+  background-color: black;
+  border-radius: 1vw;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.blackbox1 {
+  height: 24vh;
+  width: 20vw;
+  border-radius: 1vw;
+  margin-left: 50px;
+}
+.blackboxtxt1 {
+  font-size: 1.4vw;
+  font-family: "Alegreya Sans", sans-serif;
+  font-family: 200;
+  margin-top: 10px;
+}
+
+.blackboxtxt2 {
+  font-size: 1.8vw;
+  font-family: "Alegreya Sans", sans-serif;
+  color: #d1d1fb;
+  margin-top: -15px;
+}
+
+.blackboxtxt3 {
+  font-size: 1.1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 300;
+  margin-top: -15px;
+  width: 18vw;
+}
+
+.hline {
+  height: 18vh;
+  width: 0.2vw;
+  background-color: white;
+  border-radius: 1vw;
+  opacity: 80%;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.hlinebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blackbox2 {
+  height: 22vh;
+  width: auto;
+  background-color: red;
+  margin-left: 50px;
+}
+
+.whitebox {
+  height: 28vh;
+  width: 54vw;
+  background-color: white;
+  border-radius: 1vw;
+  border: solid black thin;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.wbox1txt {
+  color: black;
+  font-size: 1.3vw;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-left: 2vw;
+}
+
+.wboxtxt2 {
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-left: 30vw;
+  color: black;
+}
+.wbox1 {
+  display: flex;
+  flex-direction: row;
+  /* background-color: red;  */
+}
+
+.wbox2 {
+  display: flex;
+  flex-direction: row;
+  /* background-color:green; */
+  margin-top: -1vw;
+}
+
+.wbox2txt {
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  margin-right: 4vw;
+}
+.wbox2txt1 {
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+.wbox3txt1 {
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  margin-right: 3vw;
+  margin-left: 3vw;
+}
+
+.wbox3txt2 {
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  margin-right: 5vw;
+}
+
+.wbox3txt3 {
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  color: #39a97c;
+  margin-right: 4.5vw;
+}
+
+.hr {
+  height: 0.1vh;
+  width: 54vw;
+  background-color: black;
+  opacity: 50%;
+  margin-bottom: 0.5vw;
+}
+
+.wbox4txt1 {
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  margin-right: 6vw;
+  margin-left: 3vw;
+}
+
+.wbox4txt2 {
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  margin-right: 5vw;
+}
+
+.wbox3txt11 {
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  margin-right: 4vw;
+  margin-left: 3vw;
+}
+
+.wbox4txt3 {
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  color: #39a97c;
+  margin-right: 6.5vw;
+}
+
+.wbox3txt22 {
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  margin-right: 4vw;
+}
+
+.mainbox2 {
+  height: 100vh;
+  /* background-color: red; */
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainsubbox2txt {
+  color: black;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 1.5vw;
+}
+
+.miniwbox {
+  width: 23vw;
+  background-color: white;
+  border-radius: 1.5vw;
+  height: 24vw;
+  margin-bottom: 20px;
+}
+
+.miniwbox1 {
+  height: 8vw;
+  width: 23vw;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+}
+
+.hr2 {
+  height: 0.1vh;
+  width: 23vw;
+  background-color: black;
+  opacity: 50%;
+  /* margin-bottom:.5vw; */
+}
+.libox {
+  background-color: #d9d9d9;
+  height: 5vw;
+  width: 5vw;
+  border-radius: 0.8vw;
+  margin-left: -10px;
+}
+.lisubbox {
+  height: 8vw;
+  /* background-color: pink; */
+  width: 16vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txtwbox {
+  color: black;
+  font-size: 1.5vw;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: bold;
+  margin-left: 1vw;
+}
+
+.txtwbox2 {
+  color: black;
+  font-size: 1.1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-left: 1vw;
+  margin-top: -1vw;
+}
+.twords {
+  display: flex;
+  flex-direction: column;
+}
+
+.uline2 {
+  color: blue;
+}
+.get {
+  font-size: 1vw;
+  margin-top: 6vw;
+}
+
+.bluebox {
+  height: 28vh;
+  width: 23vw;
+  background-color: #d1d1fb;
+  border-radius: 2vw;
+  margin-top: 1vw;
+}
+
+.finaltxt {
+  color: black;
+  font-size: 1.8vw;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-left: 20px;
+}
+
+.blueboxdiv {
+  margin-top: 2vw;
+}
+.finaltxt2 {
+  font-family: "Alegreya Sans", sans-serif;
+  color: white;
+  font-size: 2.5vw;
+  margin-left: 4vw;
+  /* margin-top: 1vw; */
+}
+.finaltxt3 {
+  color: black;
+  font-size: 1vw;
+  font-family: "Alegreya Sans", sans-serif;
+  margin-left: 4vw;
+  margin-top: -0.5vw;
+}
+.finaltxt4 {
+  color: white;
+  font-size: 0.8vw;
+  margin-left: 10.5vw;
+  margin-top: 1.9vw;
+}
+
+.blue {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+  .code {
+    background: #111;
+  }
+  .logo img {
+    filter: invert(1);
+  }
+}

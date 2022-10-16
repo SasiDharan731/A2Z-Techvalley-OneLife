@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+
+.heading {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 30px;
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.Searchbox {
+  height: 5vh;
+  width: 30vw;
+  margin-left: 10vw;
+  background-color: white;
+  border-radius: 0.5vw;
+  border: solid;
+  display: flex;
+  align-items: center;
+}
+
+.Topbar {
+  height: 10vh;
+  width: 100vw;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  /* background-color: green; */
+}
+.Searchboxtext {
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  font-weight: 200;
+  opacity: 50%;
+}
+
+.homebox {
+  height: 5vh;
+  width: 2.5vw;
+  background-color: white;
+  margin-left: 30vw;
+  border-radius: 0.5vw;
+}
+.homebox3 {
+  height: 5vh;
+  width: 2.5vw;
+  background-color: white;
+  /* margin-left: 30vw; */
+  border-radius: 0.5vw;
+  margin-right: 1vw;
+}
+.homebox4 {
+  height: 5vh;
+  width: 2.5vw;
+  /* background-color: white; */
+  margin-left: 0.8vw;
+  border-radius: 0.5vw;
+  margin-right: 1vw;
+}
+.homebox2 {
+  height: 5vh;
+  width: 2.5vw;
+  background-color: white;
+  margin-left: 1vw;
+  border-radius: 0.5vw;
+}
+.hometxt {
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  margin-left: -1vw;
+  margin-right: 1vw;
+  /* margin-top:-.01vw; */
+}
+
+.Topbar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+.backgroundBox {
+  width: 90vw;
+  height: 1000px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.liveDataCard {
+  width: 75vw;
+  height: 240px;
+  border-radius: 15px;
+  border: 2px solid #0000001c;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45vw;
+  /* width: 25vw; */
+  /* background-color: coral; */
+}
+
+.dataName {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.dataTime {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+.recordID {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  color: #1313df;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.detailsData {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 15px;
+  padding-left: 20px;
+  width: 50vw;
+}
+
+.getDetails {
+  font-family: "Alegreya Sans", sans-serif;
+  margin-top: -10px;
+  padding-left: 20px;
+  float: right;
+}
+
+.updateBlue {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 17px;
+  color: #1313df;
+  font-weight: 700;
+}
+
+.reportRed {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 17px;
+  color: #d95857;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.medicalReports {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.reportImage {
+  /* width: 350px; */
+  height: auto;
+  margin-top: 50px;
+}

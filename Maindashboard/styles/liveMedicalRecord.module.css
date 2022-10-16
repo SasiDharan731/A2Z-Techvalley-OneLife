@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+
+.heading {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 30px;
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.Searchbox {
+  height: 5vh;
+  width: 30vw;
+  margin-left: 10vw;
+  background-color: white;
+  border-radius: 0.5vw;
+  border: solid;
+  display: flex;
+  align-items: center;
+}
+
+.Topbar {
+  height: 10vh;
+  width: 100vw;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  /* background-color: green; */
+}
+.Searchboxtext {
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  font-weight: 200;
+  opacity: 50%;
+}
+
+.homebox {
+  height: 5vh;
+  width: 2.5vw;
+  background-color: white;
+  margin-left: 30vw;
+  border-radius: 0.5vw;
+}
+.homebox3 {
+  height: 5vh;
+  width: 2.5vw;
+  background-color: white;
+  /* margin-left: 30vw; */
+  border-radius: 0.5vw;
+  margin-right: 1vw;
+}
+.homebox4 {
+  height: 5vh;
+  width: 2.5vw;
+  /* background-color: white; */
+  margin-left: 0.8vw;
+  border-radius: 0.5vw;
+  margin-right: 1vw;
+}
+.homebox2 {
+  height: 5vh;
+  width: 2.5vw;
+  background-color: white;
+  margin-left: 1vw;
+  border-radius: 0.5vw;
+}
+.hometxt {
+  font-family: "Alegreya Sans", sans-serif;
+  color: black;
+  margin-left: -1vw;
+  margin-right: 1vw;
+  /* margin-top:-.01vw; */
+}
+
+.Topbar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+.backgroundBox {
+  width: 90vw;
+  height: 800px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.dataGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 35px;
+  row-gap: 50px;
+  justify-content: center;
+}
+
+.liveDataCard {
+  width: 26.5vw;
+  height: 200px;
+  border-radius: 15px;
+  border: 2px solid #0000001c;
+  padding: 20px;
+}
+
+.flexRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+.dataName {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.dataTime {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+.recordID {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 20px;
+  color: #1313df;
+  margin-top: 15px;
+}
+
+.liveData {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+  color: #000000;
+}
+
+.liveDataActual {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-left: 100px;
+  color: #000000;
+}
